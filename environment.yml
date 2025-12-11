@@ -1,0 +1,12 @@
+name: parcels-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - xarray
+  - netcdf4
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+      - oceanparcels
